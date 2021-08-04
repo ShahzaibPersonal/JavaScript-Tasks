@@ -1,0 +1,105 @@
+/* 
+ft-> font ; it contains all font related color and family customization you can directly use them as classes 
+Just add required class, No more dirty code inform of inline css
+*/
+
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css);
+.ft-blue {
+    color: var(--bs-blue);
+}
+
+.ft-indigo {
+    color: var(--bs-indigo);
+}
+
+.ft-purple {
+    color: var(--bs-purple);
+}
+
+.ft-pink {
+    color: var(--bs-pink);
+}
+
+.ft-red {
+    color: var(--bs-red);
+}
+
+.ft-orange {
+    color: var(--bs-orange);
+}
+
+.ft-yellow {
+    color: var(--bs-yellow);
+}
+
+.ft-green {
+    color: var(--bs-green);
+}
+
+.ft-teal {
+    color: var(--bs-teal);
+}
+
+.ft-cyan {
+    color: var(--bs-light);
+}
+
+.ft-white {
+    color: var(--bs-white);
+}
+
+.ft-gray {
+    color: var(--bs-gray);
+}
+
+.ft-gray-dark {
+    color: var(--bs-gray-dark);
+}
+
+.ft-success {
+    color: var(--bs-success);
+}
+
+.ft-info {
+    color: var(--bs-info);
+}
+
+.ft-warning {
+    color: var(--bs-warning);
+}
+
+.ft-gradient {
+    color: var(--bs-danger);
+}
+
+.ft-danger {
+    color: var(--bs-light);
+}
+
+.ft-light {
+    color: var(--bs-light);
+}
+
+.ft-light {
+    color: var(--bs-light);
+}
+
+.ft-primary {
+    color: var(--bs-primary);
+}
+
+.ft-secondary {
+    color: var(--bs-secondary);
+}
+
+.ft-dark {
+    color: var(--bs-dark);
+}
+
+.ft-font-sans-serif {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.ft-font-monospace {
+    font-family: var(--bs-font-monospace);
+}
