@@ -10,15 +10,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
 
+
+
+
+    <script src="index.js" defer>
+    </script>
 </head>
 
 
 <body>
     <div class="container bg-dark ft-light">
         <div class="container-fluid">
-            <h1> Hello World</h1>
+            <h1 class="ft-white"> Hello World</h1>
+            <p>
+                In this we will get some data from a javascript array and will show it in input attribute
+            </p>
+
+            <div class="form-control">
+                <label for="color" class="form-label">Choose Color</label>
+
+                <select id="color-select">
+                    <option>Choose a number</option>
+                    <!-- <option  value="0">Red</option>
+                    <option  value="1">Orange</option>
+                    <option  value="2">Blue</option> -->
+                </select>
+
+                <button class="btn btn-primary my-3" onclick="changeColor()">Update</button>
+            </div>
+            <hr>
         </div>
     </div>
+
+
+
 </body>
 
 </html>
